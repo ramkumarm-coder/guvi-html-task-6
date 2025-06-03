@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aadhaar Card</title>
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .aadhar-card {
+            width: 350px;
+            background-color: #fff;
+            border: 2px solid #000;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+        }
+
+        .emblem {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .profile {
+            display: flex;
+            margin: 15px 0;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        .aadhar-number {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+            letter-spacing: 2px;
+        }
+
+        .footer {
+            text-align: center;
+            border-top: 1px solid #000;
+            padding-top: 10px;
+        }
+
+        .aadhar-logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="aadhar-card">
+        <div class="header">
+            <img src="./assets/india-emblem.svg" alt="Emblem" class="emblem">
+            <div>
+                <h2>Government of India</h2>
+                <p>Unique Identification Authority of India</p>
+            </div>
+        </div>
+
+        <div class="profile">
+            <img src="./assets/user.png" alt="User Photo" class="profile-pic">
+            <div class="details">
+                <p><strong>Name:</strong> Ramkumar M</p>
+                <p><strong>DOB:</strong> 01/05/1998</p>
+                <p><strong>Gender:</strong> Male</p>
+            </div>
+        </div>
+
+        <div class="aadhar-number">
+            <p>1234 5678 9012</p>
+        </div>
+
+        <div class="footer">
+            <img src="./assets/Aadhaar_Logo.svg" alt="Aadhaar Logo" class="aadhar-logo">
+            <p>भारत सरकार | Government of India</p>
+        </div>
+    </div>
+</body>
+
+</html>
